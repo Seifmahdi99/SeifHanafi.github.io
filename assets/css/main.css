@@ -4726,4 +4726,88 @@ input, select, textarea {
     margin-top: auto; /* pushes button down */
 }
 
+/* ---------- Portfolio card / image / button alignment overrides ---------- */
+
+/* Make the posts container a flexible grid and force items to stretch */
+section.posts {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 2rem !important;       /* space between cards */
+  align-items: stretch !important; /* force equal heights in a row */
+  margin-bottom: 2rem !important;
+  box-sizing: border-box !important;
+}
+
+/* Each article becomes a column-flex card so we can push actions to the bottom */
+section.posts > article,
+.posts article {
+  flex: 1 1 calc(50% - 2rem) !important; /* two columns layout, adjusts responsively */
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  min-height: 460px !important; /* adjust this to suit your content */
+  background: transparent !important; /* keep theme styles */
+}
+
+/* On narrow screens, full width cards */
+@media (max-width: 980px) {
+  section.posts > article,
+  .posts article {
+    flex: 1 1 100% !important;
+    min-height: auto !important;
+  }
+}
+
+/* Lock image area to a fixed height and crop using object-fit */
+section.posts a.image.fit,
+section.posts .image.fit {
+  display: block !important;
+  overflow: hidden !important;
+  border-radius: 6px !important;
+  margin-bottom: 1rem !important;
+}
+
+section.posts a.image.fit img,
+section.posts .image.fit img,
+.posts .image img,
+.post.featured .image img {
+  width: 100% !important;
+  height: 220px !important;   /* change height if you want bigger/smaller */
+  object-fit: cover !important;
+  object-position: center center !important;
+  display: block !important;
+}
+
+/* Make the paragraph/description area flexible so it can grow/shrink */
+section.posts article > p,
+section.posts article .major p,
+.posts article > p {
+  flex: 1 0 auto !important;
+}
+
+/* Force actions (buttons) to the bottom of the card and center them */
+section.posts article .actions,
+section.posts article .actions.special {
+  margin-top: auto !important;  /* pushes buttons down */
+  display: flex !important;
+  justify-content: center !important; /* change to flex-start if you want left aligned */
+  gap: .5rem !important;
+  padding-top: .75rem !important;
+}
+
+/* Make buttons consistent width so their left/right edges align */
+section.posts article .actions .button,
+section.posts article .actions.special .button {
+  min-width: 160px !important;
+}
+
+/* Safety: more specific selector if theme is overriding (.post.featured row included) */
+#main .posts > article,
+#main .posts article {
+  /* keep same behavior but avoid duplication—used if needed */
+}
+
+/* ---------- end overrides ---------- */
+
 

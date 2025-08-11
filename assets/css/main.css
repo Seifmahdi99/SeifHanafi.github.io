@@ -4811,3 +4811,18 @@ section.posts article .actions.special .button {
 /* ---------- end overrides ---------- */
 
 
+/* Crop all project images by default */
+.posts article img {
+  width: 100% !important;
+  height: 220px !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  display: block !important;
+}
+
+/* EXCEPTION — show full height for football image */
+.posts article img.full-image {
+  height: auto !important;
+  object-fit: contain !important;
+}
+

@@ -4709,3 +4709,21 @@ input, select, textarea {
 .posts article .actions {
     margin-top: auto;
 }
+/* Align View Project buttons in same row */
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; /* make all cards equal height in a row */
+}
+
+.posts article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.posts article .actions {
+    margin-top: auto; /* pushes button down */
+}
+
+

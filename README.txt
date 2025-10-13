@@ -1,32 +1,25 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+<h1>Hi, I'm, Seif! <br/><a href="https://github.com/Seifmahdi99">Ms. Student @SJSU</a>, <a href="https://www.linkedin.com/in/seifmahdi/">Finding the Hybrid between AI, Data, and Cybersecurity</a></h1>
+
+<h2>👨‍💻 Software Development Projects:</h2>
+
+- <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
+  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
+
+<h2>Certifications</h2>
+
+- MSc. in Applied Data Intelligence (SJSU)
+- BSc. in Computer Science majoring in Computer Networks
+- Google Certified Data Analyst
+- IBM in Data Science
+- ISTQB Foundational Level
+- ISTQB Mobile Application Testing
+  
 
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Here are some ideas to get you started:
 
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+- 🔭 I’m currently working on Getting my MS. in Applied data intelligence @SJSU while working on Cybersecurity certifications & Projects
+- 🌱 I’m currently learning Penetration Testing & Big Data Processing
+- 👯 I’m looking to collaborate on Any kind of available projects in my specific domains
+- ⚡ Fun fact: I am a Professional Athlete

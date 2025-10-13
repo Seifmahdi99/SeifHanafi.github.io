@@ -1,6 +1,8 @@
 Hi, I'm, Seif!
 
-"https://github.com/Seifmahdi99">Ms. Student @SJSU, "https://www.linkedin.com/in/seifmahdi/">Finding the Hybrid between AI, Data, and Cybersecurity
+https://github.com/Seifmahdi99
+
+Ms. Student @SJSU, https://www.linkedin.com/in/seifmahdi/ Finding the Hybrid between AI, Data, and Cybersecurity
 
  👨‍💻 Software Development Projects:
 
@@ -25,5 +27,6 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning Penetration Testing & Big Data Processing
 - 👯 I’m looking to collaborate on Any kind of available projects in my specific domains
 - ⚡ Fun fact: I am a Professional Athlete
+
 
 
